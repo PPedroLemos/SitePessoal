@@ -44,3 +44,33 @@ main a{
 main a:hover{
     text-decoration: underline;
 }
+
+.bigbox{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap ;
+}
+
+.box{
+    border: 1px solid whitesmoke;
+    border-radius: 12px;
+    padding: 16px;
+    background-color: #353535;
+    margin: 5px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.box a:hover{
+    text-decoration: underline;
+}
+
+.box h3{
+    margin-top: 0px;
+    text-decoration: underline;
+}
+
+.sideImage{
+    width: 200px;
+    float: right;
+}
